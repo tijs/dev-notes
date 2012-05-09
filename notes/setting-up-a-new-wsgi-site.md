@@ -8,7 +8,7 @@ Setting up the directory structure and configuration for a new site we'll call _
 
 ### Create a new Virtualenv
 
-    virtualenv --no-site-packages sitename.com
+    virtualenv sitename.com
     cd sitename.com
     source bin/activate
 
