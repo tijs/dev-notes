@@ -54,9 +54,9 @@ Add the following line.
 
     local    projectname_db   django_login   md5
 
-And then restart Postgresql.
+And then reload Postgresql.
 
-    sudo service postgresql restart
+    sudo service postgresql reload
     
 ## Web server configuration
 
