@@ -102,6 +102,10 @@ Which should look something like this (remember it's a python file!). Make sure 
     pythonpath = "%s/projectname" % ROOT
     django_settings = "settings"
     
+To check which ports are already in use try netstat
+
+    netstat -a | egrep 'Proto|LISTEN'
+    
 Now test if the startup script actually runs
 
     sudo /etc/service/projectname/run
