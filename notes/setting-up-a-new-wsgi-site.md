@@ -89,7 +89,7 @@ Make sure the run script is executable. And stop runit from trying to run gunico
 
 Next step is creating the project configuration for gunicorn.
 
-    vi /home/tijs/projects/sitename.com/gunicorn.conf.py
+    vi gunicorn.conf.py
     
 Which should look something like this (remember it's a python file!). Make sure your using a free port number and check that the logs directory is available and writable. The python path is where your app was checked out.
 
